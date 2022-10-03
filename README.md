@@ -25,7 +25,7 @@ Read up on the various commands and features in more detail on their own documen
 - [Info Command](docs/info.md)
 
 ## Report an Issue
-If you'd like to request a new feature or report a bug, feel free to open a new issue ticket on the [issues]() page! 
+If you'd like to request a new feature or report a bug, feel free to open a new issue ticket on the [issues](https://github.com/bijx/Zeus-Mission-Generator-Docs/issues) page! 
 
 ## Legacy Application
 This bot is an advanced version of the earlier [zeusmissiongen.com](https://zeusmissiongen.com/) website. Many of the auto-generated objective parameters in the new bot (when parameters are not provided) have been derived from this original site. 
