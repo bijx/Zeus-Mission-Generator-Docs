@@ -9,7 +9,7 @@ The Zeus Mission Generator 2.0 is a Discord Bot that uses the DaVinci GPT-3 AI m
 
 Once you've invited the bot to your server and given application command permissions (scoped in the invite link), you can use the following commands:
 
-* `/generate <player team> [location] [objective] [task_list]` - Generate a mission story idea based on the supplied parameters:
+* `/generate <player team> [location] [objective] [task_list] [legacy]` - Generate a mission story idea based on the supplied parameters.
 * `/info` - Get information about your user account such as:
   * `Tokens` - The number of generation tokens you have remaining. Each generation is worth 1 token.
   * `Total Generations` - The total number of generations you've produced.
