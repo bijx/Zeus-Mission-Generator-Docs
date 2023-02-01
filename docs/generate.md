@@ -1,6 +1,6 @@
 # `Generate` Command
 
-`/generate <player team> [location] [objectives]`
+`/generate <player team> [location] [objectives] [task_list] [legacy]`
 
 The `generate` command is the primary feature of the Zeus Mission Generator bot. It allows you to produce a unique prompt by providing the bot with a few parameters.
 
@@ -44,11 +44,19 @@ If you do not provide an objective, a random one will be selected based on the l
 
 ### `task_list` : **optional**
 
-The last optional parameter is the `task_list` option. Unlike the other parameters, this one only accepts a simple `True` or `False` value to specify whether you would like the bot to try and make a list of steps the player team must complete to achieve victory. The feature is in beta, but will soon become the standard generation method. 
+_As of the Feb 1st 2023 update, `task_list` is enabled by default!_
 
-Not including the parameter is the same as setting it to `False`. If you are only want a story idea and not the specific steps, feel free to not use this feature.
+The last optional parameter is the `task_list` option. Unlike the other parameters, this one only accepts a simple `True` or `False` value to specify whether you would like the bot to try and make a list of steps the player team must complete to achieve victory. 
 
-`/generate player_team:US Marines objective:destroy radio tower task_list:True`
+Not including the parameter is the same as setting it to `True`. If you are only want a story idea and not the specific steps, set this option to `False`.
+
+`/generate player_team:US Marines objective:destroy radio tower task_list:False`
+
+### `legacy` : **optional**
+
+With the Feb 1st 2023 update, the generator received an update to the AI model which produces the text prompts which results in richer and more complex responses. If you are still interested in generating prompts using the last version of the AI, set the `legacy` option to `True`.
+
+`/generate player_team:US Marines objective:destroy radio tower legacy:True`
 
 ## Output
 
